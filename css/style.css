@@ -73,6 +73,14 @@ a{
     justify-content: space-between;
 }
 
+.bars {
+    display: none;
+}
+ i{
+    color: white;
+    font-size: 30px;
+}
+
 #navbar ul li a{
     color: white;
     font-size: 16px;
@@ -443,4 +451,11 @@ a{
 
 /* ---------------------------------- */
       /* footer part end */
+/* ---------------------------------- */
+
+
+
+
+/* ---------------------------------- */
+      /* Make responsive */
 /* ---------------------------------- */

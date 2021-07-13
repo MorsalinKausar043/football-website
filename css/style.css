@@ -85,7 +85,11 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background .3s linear;
+}
+
+.log_in_btn :hover{
+    letter-spacing: 1px;
+    transition: all .3s linear;
 }
 
 #navbar .log_in_btn a{
@@ -224,7 +228,7 @@ a{
 
 #play_article_section{
     width: 1144px;
-    margin: 50px 0 150px 0;
+    margin: 50px 0 100px 0;
 }
 
 .play_article{

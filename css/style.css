@@ -371,6 +371,15 @@ a{
     color: black;
 }
 
+.footer_icon .blue :hover{
+    color: royalblue;
+}
+
+.footer_icon .mini_red :hover{
+    color: rgb(206, 53, 48);
+}
+
+
 .footer_content img{
     width: 483.87px;
     height: 110px

@@ -40,7 +40,8 @@ a{
 
 #header_part{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    padding-bottom: 80px;
     background: #2D25A0;
 } 
 

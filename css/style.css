@@ -22,6 +22,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
 }
 
 li{
@@ -84,6 +85,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background .3s linear;
 }
 
 #navbar .log_in_btn a{
@@ -93,6 +95,7 @@ a{
     font-size: 16px;
     color: white;
     text-transform: capitalize;
+    
 }
 
 #navbar .log_in_btn a span{
@@ -139,6 +142,7 @@ a{
     align-items: center;
     flex-direction: row;
     transition: all .3s linear;
+    text-transform: capitalize;
 }
 
 .watch_a span{
@@ -220,7 +224,7 @@ a{
 
 #play_article_section{
     width: 1144px;
-    margin: 100px 0 150px 0;
+    margin: 50px 0 150px 0;
 }
 
 .play_article{
@@ -250,6 +254,88 @@ a{
 
 /* ---------------------------------- */
       /* play article part end */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+      /* about part star */
+/* ---------------------------------- */
+
+#about_section{
+    width: 100vw;
+    margin: 0px 0 100px 0;
+    background: rgb(37, 36, 36);
+    padding: 20px 0 40px 0;
+    color: whitesmoke;
+}
+
+
+.about_title{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+.about_club{
+    width: 1166px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+}
+
+.about_club h2{
+    text-transform: capitalize;
+}
+
+.about_club p{
+    font-size: 14px;
+}
+
+.first_about{
+    margin: 20px 0;
+}
+
+.first_about h2{
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.second_about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.third_about{
+    margin-top: 10px;
+}
+
+.first_site_second_about img{
+    width: 300px;
+    height: 200px;
+}
+
+.second_site_second_about{
+    padding: 0 0 0 10px;
+}
+
+.right_about hr{
+    margin: 10px 0;
+}
+
+.forth_about{
+    margin: 10px 0;
+}
+
+.watch_a.anchor-about{
+    margin-top: 20px;
+}
+
+
+/* ---------------------------------- */
+      /* about part end */
 /* ---------------------------------- */
 
 

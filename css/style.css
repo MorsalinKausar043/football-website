@@ -492,7 +492,7 @@ a{
     }
     
     .header_content_site.left_content{
-        width: 80%;
+        width: 90%;
         margin-top: 40px;
         order: 2;
     }
@@ -512,7 +512,7 @@ a{
     /* player article part start */
 
     #main .player_article{
-        width: 100%;
+        width: 90%;
     }
 
     .players{
@@ -549,7 +549,7 @@ a{
     }
 
     .left_play_article {
-        width: 100%;
+        width: 90%;
         margin-bottom: 40px;
         display: flex;
         justify-content: center;

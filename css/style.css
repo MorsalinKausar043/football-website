@@ -512,11 +512,17 @@ a{
     /* player article part start */
 
     #main .player_article{
-        width: 70%;
+        width: 100%;
     }
 
     .players{
         grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 30px 0px;
+    }
+
+    .player_img img{
+        width: 100%;
+        height: 256px;
     }
 
     /* play win part start */
@@ -526,7 +532,7 @@ a{
     }
 
     .play_win_contents{
-        width: 80%;
+        width: 100%;
         grid-template-columns: repeat(1,1fr);
     }
 
@@ -543,7 +549,7 @@ a{
     }
 
     .left_play_article {
-        width: 80%;
+        width: 100%;
         margin-bottom: 40px;
         display: flex;
         justify-content: center;
@@ -574,7 +580,7 @@ a{
     }
     
     .about_club{
-        width: 80%;
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         grid-gap: 20px;

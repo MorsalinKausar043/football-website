@@ -309,6 +309,7 @@ a{
 .right_play_image img{
     width: 547px;
     height: 407px;
+    border-radius: 5px;
 }
 
 /* ---------------------------------- */
@@ -331,7 +332,6 @@ a{
 .about_title{
     font-size: 30px;
     font-weight: 700;
-    text-align: left;
     margin-bottom: 50px;
 }
 
@@ -374,6 +374,7 @@ a{
 .first_site_second_about img{
     width: 300px;
     height: 200px;
+    border-radius: 5px;
 }
 
 .second_site_second_about{
@@ -459,3 +460,151 @@ a{
 /* ---------------------------------- */
       /* Make responsive */
 /* ---------------------------------- */
+
+/* make mobile phone responsive */
+
+@media (max-width : 687px) {
+
+    /* make navbar */
+    #navbar{
+        width: 100%;
+    }
+
+    #navbar ul{
+        display: none;
+    }
+
+    .bars {
+        display: block;
+    }
+
+    .header_content{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        margin: 40px 0 0 0;
+    }
+
+    .header_content .header_content_site{
+        width: 100%;
+        align-items: center;
+        order: 1;
+    }
+    
+    .header_content_site.left_content{
+        width: 100%;
+        margin-top: 40px;
+        order: 2;
+    }
+
+    .header_content_site.left_content h1{
+        font-size: 34px;
+        color: white;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .header_content .right_content img{
+        width: 356.01px;
+        height: 238px;
+    }  
+    
+    /* player article part start */
+
+    #main .player_article{
+        width: 80%;
+    }
+
+    .players{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+
+    /* play win part start */
+
+    .play_win_title{
+        font-size: 25px;
+    }
+
+    .play_win_contents{
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+     /* play article part start */
+
+     #play_article_section{
+        width: 90%;
+    }
+
+    .play_article{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left_play_article {
+        width: 80%;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left_play_article h2{
+        font-size: 32px;
+    }
+
+    .left_play_article p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .right_play_image img{
+        width: 347px;
+        height: 207px;
+    }
+    
+    /* about part star */
+
+    .about_title{
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .about_club{
+        width: 80%;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 20px;
+    }
+
+    .second_about{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .first_site_second_about img{
+        width: 280px;
+        height: 180px;
+    }
+
+   /* footer part star */
+
+
+   .footer_content img{
+    width: 253.87px;
+    height: 110px
+    }
+
+    .footer_content{
+        width: 80%;
+    }
+
+    .footer_content p{
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    
+
+}

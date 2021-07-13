@@ -492,7 +492,7 @@ a{
     }
     
     .header_content_site.left_content{
-        width: 100%;
+        width: 80%;
         margin-top: 40px;
         order: 2;
     }
@@ -512,7 +512,7 @@ a{
     /* player article part start */
 
     #main .player_article{
-        width: 80%;
+        width: 70%;
     }
 
     .players{
@@ -530,10 +530,11 @@ a{
         grid-template-columns: repeat(1,1fr);
     }
 
+
      /* play article part start */
 
      #play_article_section{
-        width: 90%;
+        width: 100%;
     }
 
     .play_article{

@@ -187,7 +187,7 @@ a{
 
 #main .player_article{
     width: 1050px;
-    margin: 50px 0;
+    margin: 70px 0;
 }
 
 .players{
@@ -224,12 +224,58 @@ a{
 /* ---------------------------------- */
 
 /* ---------------------------------- */
+      /* play win part start */
+/* ---------------------------------- */
+
+#play_win_section{
+    width: 100%;
+    background: rgb(250, 248, 248);
+    padding: 30px 0 50px 0;
+}
+
+.play_win_title{
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+}
+
+.play_win_contents{
+    width: 1122px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+
+.play_win_content{
+    text-align: center;
+}
+
+.win_content h3{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.win_content p{
+    font-size: 14px;
+}
+
+.win_img img{
+    width: 250px;
+    height: 200px;
+}
+
+/* ---------------------------------- */
+      /* play win part end */
+/* ---------------------------------- */
+
+
+/* ---------------------------------- */
       /* play article part start */
 /* ---------------------------------- */
 
 #play_article_section{
     width: 1144px;
-    margin: 50px 0 100px 0;
+    margin: 100px 0;
 }
 
 .play_article{
@@ -269,7 +315,7 @@ a{
     width: 100vw;
     margin: 0px 0 100px 0;
     background: rgb(37, 36, 36);
-    padding: 20px 0 40px 0;
+    padding: 30px 0 50px 0;
     color: whitesmoke;
 }
 
@@ -277,7 +323,7 @@ a{
 .about_title{
     font-size: 30px;
     font-weight: 700;
-    text-align: start;
+    text-align: left;
     margin-bottom: 50px;
 }
 

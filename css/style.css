@@ -528,6 +528,7 @@ a{
         height: 256px;
     }
 
+
     /* play win part start */
 
     .play_win_title{
@@ -553,6 +554,7 @@ a{
 
     .left_play_article {
         width: 90%;
+        padding: 0 10px;
         margin-bottom: 40px;
         display: flex;
         justify-content: center;
@@ -561,7 +563,7 @@ a{
     }
 
     .left_play_article h2{
-        font-size: 32px;
+        font-size: 30px;
     }
 
     .left_play_article p{

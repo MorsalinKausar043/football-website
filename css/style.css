@@ -770,4 +770,9 @@ a{
         .about_club{
             width: 90%;
         }
+
+        .right_about hr{
+            margin: 30px 0;
+        }
+        
 }

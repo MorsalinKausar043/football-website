@@ -493,13 +493,11 @@ a{
     .header_content .header_content_site{
         width: 100%;
         align-items: center;
-        order: 1;
     }
     
     .header_content_site.left_content{
         width: 90%;
-        margin-top: 40px;
-        order: 2;
+        margin-bottom: 40px;
     }
 
     .header_content_site.left_content h1{
@@ -651,13 +649,11 @@ a{
     .header_content .header_content_site{
         width: 100%;
         align-items: center;
-        order: 1;
     }
     
     .header_content_site.left_content{
         width: 100%;
-        margin-top: 40px;
-        order: 2;
+        margin-bottom: 40px;
     }
 
     .header_content_site.left_content h1{

@@ -134,7 +134,7 @@ a{
 }
 
 .header_content_site.left_content{
-    width: 45%;
+    width: 50%;
 }
 
 .header_content_site.left_content h1{
@@ -746,6 +746,10 @@ a{
 @media (min-width : 991px) and (max-width : 1164px) {
     #navbar{
         width: 100%;
+    }
+
+    #navbar ul{
+        width: 55%;
     }
 
     .header_content{

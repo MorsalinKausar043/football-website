@@ -361,7 +361,7 @@ a{
 
 .first_about h2{
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: 700;
 }
 
@@ -589,6 +589,10 @@ a{
         display: grid;
         grid-template-columns: repeat(1 , 1fr);
         grid-gap: 20px;
+    }
+
+    .first_about h2{
+        font-size: 25px;
     }
 
     .second_about{

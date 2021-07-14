@@ -335,6 +335,11 @@ a{
     margin-bottom: 50px;
 }
 
+.about_title span{
+    color: crimson;
+    font-size: 40px;
+}
+
 .about_club{
     width: 1166px;
     display: grid;
